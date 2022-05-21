@@ -1,4 +1,4 @@
-Nombre			Tiempo Min	Tiempo Seg	Autor		Genero1			Genero2		Genero3			Año
+Nombre			Tiempo_Min	Tiempo_Seg	Autor		Genero1			Genero2		Genero3			Año
 Bones				2	45	Imagine_Dragons		banda			pop		rock			2022
 Camisa_Negra			3	39	Juanes			solista			pop		rock			2004
 Ainsi_bas_la_vida		3	35	Indila			solista			french_urban	R&B			2014
