@@ -61,7 +61,7 @@ public class Ingreso extends JFrame{
                         
 
                         Menu menu = new Menu();
-                        menu.menu(myFrame);
+                        menu.menu();
                         ocultar();
                         
                     }else{

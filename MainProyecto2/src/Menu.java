@@ -10,26 +10,67 @@ public class Menu extends JFrame{
     final private Font mainFont = new Font("Segoe print", Font.BOLD,18);
     JTextField tfFirstName;
 
+    public Generos generos= new Generos();
+
     JLabel lbWelcome;
 
-    public void menu(MainFrame mu){
+    public static MainFrame myFrame;
 
-        mu.setVisible(false);
+    public void menu(){
+
+
 
         JLabel lbFirstName = new JLabel("¿Cómo desea obtener recomendaciones?");
         lbFirstName.setFont(mainFont);
 
-        JLabel lbOp1 = new JLabel("1. Género");
-        lbOp1.setFont(mainFont);
+        
 
-        JLabel lbOp2 = new JLabel("2. Tiempo de duración");
-        lbOp2.setFont(mainFont);
+        JButton lbOP1 = new JButton("1. Género");
+        lbOP1.setFont(mainFont);
+        lbOP1.addActionListener(new ActionListener(){
 
-        JLabel lbOp3 = new JLabel("3. Años");
-        lbOp3.setFont(mainFont);
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
 
-        tfFirstName = new JTextField();
-        tfFirstName.setFont(mainFont);
+                generos.generos();
+                ocultar();
+                
+            }
+
+            
+        });
+        
+
+        JButton lbOP2 = new JButton("2. Tiempo de duración");
+        lbOP2.setFont(mainFont);
+        lbOP2.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                
+            }
+
+            
+        });
+
+        JButton lbOP3 = new JButton("3. Años");
+        lbOP3.setFont(mainFont);
+        lbOP3.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                
+            }
+
+            
+        });
        
 
         JPanel formPanel = new JPanel();
@@ -37,87 +78,16 @@ public class Menu extends JFrame{
         formPanel.setOpaque(false);
         formPanel.add(lbFirstName);
         
-
-        /******************************Welcome Label**************************/ 
-
-        lbWelcome = new JLabel();
-        lbWelcome.setFont(mainFont);
-
-        /******************************Boton panel**************************/ 
-
-        JButton btnOK = new JButton("OK");
-        btnOK.setFont(mainFont);
-        btnOK.addActionListener(new ActionListener(){
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
-
-                String firstName =tfFirstName.getText();
-
-                if (firstName.equals("1")){
-
-                    
-                    
-                }else{
-                    lbWelcome.setText("Contraseña o Usuario incorrecta presione Clear e intente de nuevo");
-                }
-
-               
-                
-            }
-
-            
-        });
-
-        JButton btnClear = new JButton("Clear");
-        btnClear.setFont(mainFont);
-        btnClear.addActionListener(new ActionListener(){
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
-
-                tfFirstName.setText("");
-                lbWelcome.setText("");
-                
-            }
-
-            
-        });
-
-        JButton btnMenu = new JButton("Menu");
-        btnMenu.setFont(mainFont);
-        btnMenu.addActionListener(new ActionListener(){
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
-
-                
-                
-            }
-
-            
-        });
-
+        
 
         JPanel centerPanel= new JPanel();
-        centerPanel.setLayout(new GridLayout(4,1,5,5));
+        centerPanel.setLayout(new GridLayout(3,1,5,5));
         centerPanel.setOpaque(false);
-        centerPanel.add(lbOp1);
-        centerPanel.add(lbOp2);
-        centerPanel.add(lbOp3);
-        centerPanel.add(lbWelcome);
-        centerPanel.add(tfFirstName);
+        centerPanel.add(lbOP1);
+        centerPanel.add(lbOP2);
+        centerPanel.add(lbOP3);
+  
 
-
-
-        JPanel buttonsPanel = new JPanel();
-        buttonsPanel.setLayout(new GridLayout(2,2,5,5));
-        buttonsPanel.setOpaque(false);
-        buttonsPanel.add(btnOK);
-        buttonsPanel.add(btnClear);
 
 
         JPanel mainPanel = new JPanel();
@@ -126,7 +96,6 @@ public class Menu extends JFrame{
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
         mainPanel.add(formPanel, BorderLayout.NORTH);
         mainPanel.add(centerPanel, BorderLayout.CENTER);
-        mainPanel.add(buttonsPanel, BorderLayout.SOUTH);
 
         add(mainPanel);
 
@@ -138,6 +107,16 @@ public class Menu extends JFrame{
         setVisible(true);
 
 
+    }
+
+    public void ingresar(){
+        myFrame = new MainFrame();
+        menu();
+        
+    }
+
+    public void ocultar(){
+        this.dispose();
     }
     
     

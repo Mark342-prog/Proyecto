@@ -7,35 +7,120 @@ import java.awt.*;
 
 public class Generos extends JFrame{
     final private Font mainFont = new Font("Segoe print", Font.BOLD,18);
-    JTextField tfFirstName;
-    JPasswordField tfLastName;
+
     JLabel lbWelcome;
 
     public static MainFrame myFrame;
 
     public void generos(){
 
-        JLabel lbFirstName = new JLabel("Usuario");
-        lbFirstName.setFont(mainFont);
 
-        tfFirstName = new JTextField();
-        tfFirstName.setFont(mainFont);
-        tfFirstName.setText("WICHO");
 
-        JLabel lbLastName = new JLabel("Contraseña");
-        lbLastName.setFont(mainFont);
+        JButton btnPop = new JButton("Pop");
+        btnPop.setFont(mainFont);
+        btnPop.addActionListener(new ActionListener(){
 
-        tfLastName = new JPasswordField();
-        tfLastName.setFont(mainFont);
-        tfLastName.setText("WICHO123");
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+  
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnRock = new JButton("Rock");
+        btnRock.setFont(mainFont);
+        btnRock.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnRB = new JButton("R&B");
+        btnRB.setFont(mainFont);
+        btnRB.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnFrench = new JButton("French Urban");
+        btnFrench.setFont(mainFont);
+        btnFrench.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnDance = new JButton("Dance");
+        btnDance.setFont(mainFont);
+        btnDance.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnDisco = new JButton("Disco");
+        btnDisco.setFont(mainFont);
+        btnDisco.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
 
         JPanel formPanel = new JPanel();
-        formPanel.setLayout(new GridLayout (4, 1, 5, 5));
+        formPanel.setLayout(new GridLayout (4, 4, 5, 5));
         formPanel.setOpaque(false);
-        formPanel.add(lbFirstName);
-        formPanel.add(tfFirstName);
-        formPanel.add(lbLastName);
-        formPanel.add(tfLastName);
+        formPanel.add(btnPop);
+        formPanel.add(btnRock);
+        formPanel.add(btnRB);
+        formPanel.add(btnFrench);
+        formPanel.add(btnDance);
+        formPanel.add(btnDisco);
 
         /******************************Welcome Label**************************/ 
 
@@ -52,17 +137,15 @@ public class Generos extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
 
-                String firstName =tfFirstName.getText();
-                String lastName = tfLastName.getText();
+                String firstName="";
+                String lastName="";
 
-                if (firstName.equals("WICHO")){
-                    if(lastName.equals("WICHO123")){
+                if (firstName.equals("pop")){
+                    if(lastName.equals("rock")){
                         //lbWelcome.setText("Bienvenido "+ firstName+" ");
                         
-
-                        Menu menu = new Menu();
-                        menu.menu(myFrame);
-                        ocultar();
+                        lbWelcome.setText("1. Bones-Imagine_Dragons\n2. Camisa_Negra-Juanes\n3. Counting_Stars-One_Republic");
+                        
                         
                     }else{
                         lbWelcome.setText("Contraseña o Usuario incorrecto presione Clear e intente de nuevo");
@@ -86,8 +169,7 @@ public class Generos extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
 
-                tfFirstName.setText("");
-                tfLastName.setText("");
+
                 lbWelcome.setText("");
                 
             }
@@ -95,6 +177,22 @@ public class Generos extends JFrame{
             
         });
 
+        JButton btnMenu = new JButton("Menu");
+        btnMenu.setFont(mainFont);
+        btnMenu.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+                Menu menu = new Menu();
+                menu.menu();
+                ocultar();
+                
+            }
+
+            
+        });
         
 
 
@@ -103,10 +201,11 @@ public class Generos extends JFrame{
 
 
         JPanel buttonsPanel = new JPanel();
-        buttonsPanel.setLayout(new GridLayout(1,2,5,5));
+        buttonsPanel.setLayout(new GridLayout(1,3,5,5));
         buttonsPanel.setOpaque(false);
         buttonsPanel.add(btnOK);
         buttonsPanel.add(btnClear);
+        buttonsPanel.add(btnMenu);
 
 
         JPanel mainPanel = new JPanel();
