@@ -12,6 +12,7 @@ public class Menu extends JFrame{
 
     public Generos generos= new Generos();
     public Duracion duracion = new Duracion();
+    public Año año = new Año();
 
     JLabel lbWelcome;
 
@@ -68,6 +69,8 @@ public class Menu extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
 
+                año.year();
+                ocultar();
 
                 
             }

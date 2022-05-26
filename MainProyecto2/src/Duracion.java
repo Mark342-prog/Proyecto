@@ -41,10 +41,9 @@ public class Duracion extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
-
-                String firstName =tfFirstName.getText();
-                String lastName = tfLastName.getText();
                 /*
+                String firstName =tfFirstName.getText();
+                
                 if (firstName.equals("pop")){
                     if(lastName.equals("rock")){
                         //lbWelcome.setText("Bienvenido "+ firstName+" ");
