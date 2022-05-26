@@ -112,8 +112,218 @@ public class Generos extends JFrame{
             
         });
 
+        JButton btnFolk = new JButton("Folk");
+        btnFolk.setFont(mainFont);
+        btnFolk.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnHeavy = new JButton("Heavy Metal");
+        btnHeavy.setFont(mainFont);
+        btnHeavy.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnHard = new JButton("Hard Rock");
+        btnHard.setFont(mainFont);
+        btnHard.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnMex = new JButton("Regional Mexicana");
+        btnMex.setFont(mainFont);
+        btnMex.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnRockE = new JButton("Rock Español");
+        btnRockE.setFont(mainFont);
+        btnRockE.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnNewWave = new JButton("New Wave");
+        btnNewWave.setFont(mainFont);
+        btnNewWave.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnElectronica = new JButton("Electrónica");
+        btnElectronica.setFont(mainFont);
+        btnElectronica.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnHouse = new JButton("House");
+        btnHouse.setFont(mainFont);
+        btnHouse.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnClasica = new JButton("Clásica");
+        btnClasica.setFont(mainFont);
+        btnClasica.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnSinfonia = new JButton("Sinfonia");
+        btnSinfonia.setFont(mainFont);
+        btnSinfonia.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnUrbanL = new JButton("Urban Latino");
+        btnUrbanL.setFont(mainFont);
+        btnUrbanL.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnInfantil = new JButton("Infantil");
+        btnInfantil.setFont(mainFont);
+        btnInfantil.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+        JButton btnRanchera = new JButton("Ranchera");
+        btnRanchera.setFont(mainFont);
+        btnRanchera.addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+
+
+                lbWelcome.setText("");
+                
+            }
+
+            
+        });
+
+
+
         JPanel formPanel = new JPanel();
-        formPanel.setLayout(new GridLayout (4, 4, 5, 5));
+        formPanel.setLayout(new GridLayout (6, 4, 5, 5));
         formPanel.setOpaque(false);
         formPanel.add(btnPop);
         formPanel.add(btnRock);
@@ -121,6 +331,24 @@ public class Generos extends JFrame{
         formPanel.add(btnFrench);
         formPanel.add(btnDance);
         formPanel.add(btnDisco);
+        formPanel.add(btnFolk);
+        formPanel.add(btnHeavy);
+        formPanel.add(btnHard);
+        formPanel.add(btnMex);
+        formPanel.add(btnElectronica);
+        formPanel.add(btnNewWave);
+        formPanel.add(btnRockE);
+        formPanel.add(btnHouse);
+        formPanel.add(btnClasica);
+        formPanel.add(btnSinfonia);
+        formPanel.add(btnUrbanL);
+        formPanel.add(btnInfantil);
+        formPanel.add(btnRanchera);
+        //formPanel.add(btnMex);
+        //formPanel.add(btnMex);
+        //formPanel.add(btnMex);
+
+
 
         /******************************Welcome Label**************************/ 
 
@@ -129,37 +357,6 @@ public class Generos extends JFrame{
 
         /******************************Boton panel**************************/ 
 
-        JButton btnOK = new JButton("OK");
-        btnOK.setFont(mainFont);
-        btnOK.addActionListener(new ActionListener(){
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
-
-                String firstName="";
-                String lastName="";
-
-                if (firstName.equals("pop")){
-                    if(lastName.equals("rock")){
-                        //lbWelcome.setText("Bienvenido "+ firstName+" ");
-                        
-                        lbWelcome.setText("1. Bones-Imagine_Dragons\n2. Camisa_Negra-Juanes\n3. Counting_Stars-One_Republic");
-                        
-                        
-                    }else{
-                        lbWelcome.setText("Contraseña o Usuario incorrecto presione Clear e intente de nuevo");
-                    }
-                }else{
-                    lbWelcome.setText("Contraseña o Usuario incorrecta presione Clear e intente de nuevo");
-                }
-
-               
-                
-            }
-
-            
-        });
 
         JButton btnClear = new JButton("Clear");
         btnClear.setFont(mainFont);
@@ -203,7 +400,6 @@ public class Generos extends JFrame{
         JPanel buttonsPanel = new JPanel();
         buttonsPanel.setLayout(new GridLayout(1,3,5,5));
         buttonsPanel.setOpaque(false);
-        buttonsPanel.add(btnOK);
         buttonsPanel.add(btnClear);
         buttonsPanel.add(btnMenu);
 

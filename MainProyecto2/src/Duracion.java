@@ -12,7 +12,7 @@ public class Duracion extends JFrame{
 
     public static MainFrame myFrame;
 
-    public void generos(){
+    public void duration(){
 
         JLabel lbFirstName = new JLabel("Tiempo Max en Min que desea que dure la canción");
         lbFirstName.setFont(mainFont);
@@ -20,19 +20,12 @@ public class Duracion extends JFrame{
         tfFirstName = new JTextField();
         tfFirstName.setFont(mainFont);
 
-        JLabel lbLastName = new JLabel("Genero 2");
-        lbLastName.setFont(mainFont);
-
-        tfLastName = new JTextField();
-        tfLastName.setFont(mainFont);
 
         JPanel formPanel = new JPanel();
         formPanel.setLayout(new GridLayout (4, 1, 5, 5));
         formPanel.setOpaque(false);
         formPanel.add(lbFirstName);
         formPanel.add(tfFirstName);
-        formPanel.add(lbLastName);
-        formPanel.add(tfLastName);
 
         /******************************Welcome Label**************************/ 
 
@@ -51,7 +44,7 @@ public class Duracion extends JFrame{
 
                 String firstName =tfFirstName.getText();
                 String lastName = tfLastName.getText();
-
+                /*
                 if (firstName.equals("pop")){
                     if(lastName.equals("rock")){
                         //lbWelcome.setText("Bienvenido "+ firstName+" ");
@@ -65,6 +58,7 @@ public class Duracion extends JFrame{
                 }else{
                     lbWelcome.setText("Contraseña o Usuario incorrecta presione Clear e intente de nuevo");
                 }
+                */
 
                
                 
@@ -143,7 +137,7 @@ public class Duracion extends JFrame{
 
     public void ingresar(){
         myFrame = new MainFrame();
-        generos();
+        duration();
         
     }
 
