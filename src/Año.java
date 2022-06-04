@@ -14,7 +14,7 @@ Andres Chivalan
 Luis
 Cindy 
 
-
+Clase con la ventana de recomendaciones por años (canciones por decadas)
 ---------------------------*/
 
 
@@ -32,7 +32,8 @@ public class Año extends JFrame{
     public void year(){
 
 
-
+        //Botones con las diferentes decadas
+        //Misma función que en la clase Generos y Duracion
         JButton btn2020 = new JButton("2020s");
         btn2020.setFont(mainFont);
         btn2020.addActionListener(new ActionListener(){
@@ -195,7 +196,7 @@ public class Año extends JFrame{
         
 
 
-
+        //Panel que controla los botones de las decadas
         JPanel formPanel = new JPanel();
         formPanel.setLayout(new GridLayout (6, 4, 5, 5));
         formPanel.setOpaque(false);
@@ -206,14 +207,10 @@ public class Año extends JFrame{
         formPanel.add(btn80);
         formPanel.add(btn70);
         formPanel.add(btnHistoria);
-        
-        //formPanel.add(btnMex);
-        //formPanel.add(btnMex);
-        //formPanel.add(btnMex);
 
 
 
-        /******************************Welcome Label**************************/ 
+        /******************************Configuracion de Labels**************************/ 
 
         lbWelcome = new JLabel();
         lbWelcome.setFont(mainFont);
@@ -230,7 +227,7 @@ public class Año extends JFrame{
         lbWelcome5 = new JLabel();
         lbWelcome5.setFont(mainFont);
 
-        /******************************Boton panel**************************/ 
+        /******************************Botones Clear, Menu, su Panel y el panel de los labels**************************/ 
 
 
         JButton btnClear = new JButton("Clear");
@@ -293,7 +290,7 @@ public class Año extends JFrame{
         buttonsPanel.add(btnClear);
         buttonsPanel.add(btnMenu);
 
-
+        //Se ordenan los botones de decadas arriba, los labels al centro y los botones Clear y Menu al final
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BorderLayout());
         mainPanel.setBackground(new Color(128, 128, 255));
@@ -313,13 +310,13 @@ public class Año extends JFrame{
 
 
     }
-
+    //Donde llaman todas las clases
     public void ingresar(){
         myFrame = new MainFrame();
         year();
         
     }
-
+    //Se oculta la ventana
     public void ocultar(){
         this.dispose();
     }
