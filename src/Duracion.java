@@ -4,6 +4,19 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.*;
 
+/*--------------------------------------------
+Guatemala Viernes 3 de Junio del 2022
+Algoritmos y estructura de datos
+Proyecto final 
+Grupo 1
+Walter Cruz 20673
+Andres Chivalan
+Luis
+Cindy 
+
+Esta clase recomienda por artista
+Se llama Duracion ya que la idea original era recomendar por tiempo
+---------------------------*/
 
 public class Duracion extends JFrame{
     final private Font mainFont = new Font("Segoe print", Font.BOLD,18);
@@ -19,7 +32,8 @@ public class Duracion extends JFrame{
     public void duration(){
 
         
-
+        //Botones que recomiendan por genero
+        //Explicación del funcionamiento en clase Generos (funcionan de la misma manera)
         JButton btnPop = new JButton("AC/DC");
         btnPop.setFont(mainFont);
         btnPop.addActionListener(new ActionListener(){
@@ -502,7 +516,7 @@ public class Duracion extends JFrame{
 
 
 
-
+        //Panel que ordena los botones de los artistas
         JPanel formPanel = new JPanel();
         formPanel.setLayout(new GridLayout (6, 5, 5, 5));
         formPanel.setOpaque(false);
@@ -539,26 +553,14 @@ public class Duracion extends JFrame{
 
 
 
-        /******************************Welcome Label**************************/ 
+        /******************************Configuracion de Labels**************************/ 
 
         lbWelcome = new JLabel();
         lbWelcome.setFont(mainFont);
 
-        lbWelcome2 = new JLabel();
-        lbWelcome2.setFont(mainFont);
-
-        lbWelcome3 = new JLabel();
-        lbWelcome3.setFont(mainFont);
-
-        lbWelcome4 = new JLabel();
-        lbWelcome4.setFont(mainFont);
-
-        lbWelcome5 = new JLabel();
-        lbWelcome5.setFont(mainFont);
-
         
 
-        /******************************Boton panel**************************/ 
+        /******************************Panel de botones clear y Menu; y labels**************************/ 
 
 
         JButton btnClear = new JButton("Clear");
@@ -576,7 +578,7 @@ public class Duracion extends JFrame{
 
             
         });
-
+        //Regreso a Menu
         JButton btnMenu = new JButton("Menu");
         btnMenu.setFont(mainFont);
         btnMenu.addActionListener(new ActionListener(){
@@ -599,14 +601,15 @@ public class Duracion extends JFrame{
 
 
 
-
+        //Ordena los Botones Clear y Menu
         JPanel buttonsPanel = new JPanel();
         buttonsPanel.setLayout(new GridLayout(1,3,5,5));
         buttonsPanel.setOpaque(false);
         buttonsPanel.add(btnClear);
         buttonsPanel.add(btnMenu);
 
-
+        //Ordena Panel de Artistas; a los labels y a los botones Clear y Menu
+        //Misma estructura que Generos
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BorderLayout());
         mainPanel.setBackground(new Color(128, 128, 255));
@@ -626,13 +629,13 @@ public class Duracion extends JFrame{
 
 
     }
-
+    //Donde se comunican las demas clases
     public void ingresar(){
         myFrame = new MainFrame();
         duration();
         
     }
-
+    //Ocultar ventana
     public void ocultar(){
         this.dispose();
     }

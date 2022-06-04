@@ -4,10 +4,23 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.*;
 
+/*--------------------------------------------
+Guatemala Viernes 3 de Junio del 2022
+Algoritmos y estructura de datos
+Proyecto final 
+Grupo 1
+Walter Cruz 20673
+Andres Chivalan
+Luis
+Cindy 
+
+Esta clase muestra canciones según los genereos que desea el usuario
+---------------------------*/
 
 public class Generos extends JFrame{
     final private Font mainFont = new Font("Segoe print", Font.BOLD,18);
 
+    //5 labels para 5 canciones maximas que puede recomendar
     JLabel lbWelcome;
     JLabel lbWelcome2;
     JLabel lbWelcome3;
@@ -20,14 +33,18 @@ public class Generos extends JFrame{
     public void generos(){
 
 
-        //
+        /******************************Se le da una acción a cada boton con un genero de música*************************/ 
+        //se muestra el genero
         JButton btnPop = new JButton("Pop");
         btnPop.setFont(mainFont);
         btnPop.addActionListener(new ActionListener(){
 
+            //Si es activado muestra estas canciones en los labels
             @Override
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
+                //Aunque no se logró la conexión con la base de datos estas son las canciones de la base de datos que pertenecen a este genero
+                //y que deberian salir al ser presionado
                 //Someone like You-Adele
                 //Muerte en Hawaii-Calle 13
                 //Flor palida Enough-Marc Anthony
@@ -1057,7 +1074,7 @@ public class Generos extends JFrame{
 
 
 
-
+        /******************************Panel que organiza los botones en 7 filas y 6 columnas por ser muy numerosos*************************/ 
         JPanel formPanel = new JPanel();
         formPanel.setLayout(new GridLayout (7, 6, 5, 5));
         formPanel.setOpaque(false);
@@ -1110,7 +1127,7 @@ public class Generos extends JFrame{
 
 
 
-        /******************************Welcome Label**************************/ 
+        /******************************Se configura la letra de los labels**************************/ 
 
         lbWelcome = new JLabel();
         lbWelcome.setFont(mainFont);
@@ -1129,9 +1146,9 @@ public class Generos extends JFrame{
 
         
 
-        /******************************Boton panel**************************/ 
+        /******************************Se configura el boton Clear y el boton menu**************************/ 
 
-
+        //Clear limpia los labels
         JButton btnClear = new JButton("Clear");
         btnClear.setFont(mainFont);
         btnClear.addActionListener(new ActionListener(){
@@ -1152,7 +1169,7 @@ public class Generos extends JFrame{
             
         });
 
-        
+        //Se crea un Panel para los labels y los organiza todos en una sola columna
         JPanel lbPanel = new JPanel();
         lbPanel.setLayout(new GridLayout(5,1,5,5));
         lbPanel.setOpaque(false);
@@ -1162,6 +1179,7 @@ public class Generos extends JFrame{
         lbPanel.add(lbWelcome4);
         lbPanel.add(lbWelcome5);
 
+        //Se crea un boton para regresar al Menu
         JButton btnMenu = new JButton("Menu");
         btnMenu.setFont(mainFont);
         btnMenu.addActionListener(new ActionListener(){
@@ -1184,20 +1202,23 @@ public class Generos extends JFrame{
 
 
 
-
+        //Se crea un Panel para contenes a los botones Clear y Menu
         JPanel buttonsPanel = new JPanel();
         buttonsPanel.setLayout(new GridLayout(1,3,5,5));
         buttonsPanel.setOpaque(false);
         buttonsPanel.add(btnClear);
         buttonsPanel.add(btnMenu);
 
-
+        //Se crea el panel principal
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BorderLayout());
         mainPanel.setBackground(new Color(128, 128, 255));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
+        //Los botones con los generos van en la parte de arriba
         mainPanel.add(formPanel, BorderLayout.NORTH);
+        //Los labels con las canciones van en la parte de en medio
         mainPanel.add(lbPanel, BorderLayout.CENTER);
+        //Los botones Clear y Menu van en la parte de abajo
         mainPanel.add(buttonsPanel, BorderLayout.SOUTH);
 
         add(mainPanel);
@@ -1211,13 +1232,13 @@ public class Generos extends JFrame{
 
 
     }
-
+    //Donde se comunican otras clases
     public void ingresar(){
         myFrame = new MainFrame();
         generos();
         
     }
-
+    //Ocultar ventana
     public void ocultar(){
         this.dispose();
     }

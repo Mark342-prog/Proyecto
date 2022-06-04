@@ -4,6 +4,20 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.*;
 
+/*--------------------------------------------
+Guatemala Viernes 3 de Junio del 2022
+Algoritmos y estructura de datos
+Proyecto final 
+Grupo 1
+Walter Cruz 20673
+Andres Chivalan
+Luis
+Cindy 
+
+
+---------------------------*/
+
+
 public class Año extends JFrame{
     final private Font mainFont = new Font("Segoe print", Font.BOLD,18);
 
