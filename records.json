@@ -1,0 +1,1476 @@
+﻿[
+  {
+    "a": {
+"identity": 0,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Folk"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 2,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Acoustic Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 3,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "G-Funk"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 4,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Hip Hop"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 5,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Pop Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 6,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Rap Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 7,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1867"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 8,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1967"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 9,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1968"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 10,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1970"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 11,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1971"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 12,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1981"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 13,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1989"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 14,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1990"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 15,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1991"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 16,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1992"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 17,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "1997"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 18,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2000"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 19,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2003"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 20,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2005"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 21,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2008"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 22,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2009"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 23,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2010"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 24,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2011"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 25,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2012"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 26,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2013"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 27,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2014"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 28,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2016"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 29,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2017"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 30,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2018"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 31,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2019"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 32,
+"labels": [
+        "Año"
+      ],
+"properties": {
+"año": "2021"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 33,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 34,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Alternativa"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 36,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Clásica"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 37,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Rock en español"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 38,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Dance"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 39,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Electrónica"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 40,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Independiente"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 41,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "West Coast Hip Hop"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 42,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Rap"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 43,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "R&B"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 44,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Música Tropical"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 45,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Urbano Latino"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 46,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Bachata"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 47,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Trap"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 48,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Reggaeton"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 49,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Nu Metal"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 50,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "New Wave"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 53,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Metal Industrial"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 54,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Psychedelic Funk"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 56,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "House"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 57,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Regional Mexicana"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 58,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "AC/DC"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 59,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Adele"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 60,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Beethoven"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 61,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Black Sabbath"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 62,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Café Tacvba"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 63,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Calle 13"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 64,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Chistian Nodal"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 65,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Daddy Yankee"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 66,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "David Guetta"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 67,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Duki"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 68,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Ed Maverick"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 69,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Fuego"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 71,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Gorillaz"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 72,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Ice Cube"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 73,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Jimmy Hendrix"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 75,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Kevin Kaarl"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 76,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Alternativo"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 77,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Linkin Park"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 79,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Marvin Gaye"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 81,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Meshuggah"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 82,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Night Lovell"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 83,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Nirvana"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 85,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Skrillex"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 86,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Soda Stereo"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 87,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Vicente Fernández"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 88,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "xxxtentacion"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 89,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Thunderstruck"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 90,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Hard Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 91,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Heavy Metal"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 94,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Someone like You"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 95,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Für Elise"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 96,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Paranoid"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 97,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Eres"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 98,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Muerte En Hawaii"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 100,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Gasolina"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 101,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Memories"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 102,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "She Don't Give A Fo"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 103,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Fuentes de Ortiz"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 104,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Una Vaina Loca"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 105,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Maggot Brain"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 106,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Feel Good Inc."
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 107,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "It Was A Good Day"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 108,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "All Along The Watchtower"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 109,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "M.A.A.D City"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 110,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Colapso"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 111,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "In The End"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 112,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Flor Pálida"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 113,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Ain't No Mountain High Enough"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 114,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Down Under"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 115,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Bleed"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 116,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Dark Light"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 117,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Something In The Way"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 118,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Du Hast"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 119,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Bangarang"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 120,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "De Música Ligera"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 121,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Por Tu Maldito Amor"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 122,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Young Bratz"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 123,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Soul"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 124,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Pop"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 125,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Rock Alternativo"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 126,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Power Pop"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 127,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Rock Español"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 128,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Dembow"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 129,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Piano"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 130,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Marc Anthony"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 131,
+"labels": [
+        "Canción"
+      ],
+"properties": {
+"canción": "Botella tras Botella"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 133,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Regional Mexicano"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 134,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Trap Latino"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 135,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Mariachi"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 136,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Metal Progresivo"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 137,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Djent"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 138,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"artista": "Men At Work"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 139,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Folk Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 140,
+"labels": [
+        "Artista"
+      ],
+"properties": {
+"arista": "Funkadelic"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 141,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Funk Rock"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 142,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Electro House"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 143,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Techno Pop"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 144,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Trap Metal"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 145,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Southern Hip Hop"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 147,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Gangsta Rap"
+      }
+    }
+  },
+  {
+    "a": {
+"identity": 148,
+"labels": [
+        "Categoria"
+      ],
+"properties": {
+"categoria": "Música Tradicional"
+      }
+    }
+  }
+]
